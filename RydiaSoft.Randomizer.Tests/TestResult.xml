@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Users\Micksoft\Documents\GitHub\RydiaSoft.Randomizer\RydiaSoft.Randomizer.Tests\RydiaSoft.Randomizer.Tests.nunit" total="160" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-06-13" time="08:07:13">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8689" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="D:\Users\Micksoft\Documents\GitHub\RydiaSoft.Randomizer\RydiaSoft.Randomizer.Tests" machine-name="MICKSOFT-PRO" user="MickSoft" user-domain="MickSoft-Pro" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Project" name="D:\Users\Micksoft\Documents\GitHub\RydiaSoft.Randomizer\RydiaSoft.Randomizer.Tests\RydiaSoft.Randomizer.Tests.nunit" executed="True" result="Success" success="True" time="850.318" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\Users\Micksoft\Documents\GitHub\RydiaSoft.Randomizer\RydiaSoft.Randomizer.Tests\bin\Debug\RydiaSoft.Randomizer.Tests.dll" executed="True" result="Success" success="True" time="850.313" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="RydiaSoft" executed="True" result="Success" success="True" time="850.313" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Randomizer" executed="True" result="Success" success="True" time="850.313" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="850.312" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="LinearCongruentialGeneratorTests" executed="True" result="Success" success="True" time="10.637" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.243" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.013" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.006" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.004" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.004" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.006" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.LinearCongruentialGeneratorTests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="MersenneTwisterTests" executed="True" result="Success" success="True" time="15.898" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.005" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.015" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MersenneTwisterTests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="MotherOfAllTests" executed="True" result="Success" success="True" time="21.548" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.005" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.012" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.MotherOfAllTests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RanrotBTests" executed="True" result="Success" success="True" time="27.193" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.005" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.011" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.RanrotBTests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT11213Tests" executed="True" result="Success" success="True" time="32.794" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.010" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.014" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT11213Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT1279Tests" executed="True" result="Success" success="True" time="38.201" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.011" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT1279Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT132049Tests" executed="True" result="Success" success="True" time="44.890" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.006" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.029" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT132049Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT19937Tests" executed="True" result="Success" success="True" time="50.325" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.005" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.012" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.005" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT19937Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT216091Tests" executed="True" result="Success" success="True" time="55.861" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.005" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.011" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT216091Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT2281Tests" executed="True" result="Success" success="True" time="61.662" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.013" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT2281Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT4253Tests" executed="True" result="Success" success="True" time="66.832" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.011" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.004" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT4253Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT44497Tests" executed="True" result="Success" success="True" time="74.972" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.005" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.011" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT44497Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT607Tests" executed="True" result="Success" success="True" time="79.172" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.015" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.006" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT607Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SFMT86243Tests" executed="True" result="Success" success="True" time="83.509" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.004" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.011" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.SFMT86243Tests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="WellTests" executed="True" result="Success" success="True" time="90.276" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.006" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.013" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.WellTests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="XorshiftTests" executed="True" result="Success" success="True" time="96.405" asserts="0">
+                        <results>
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextBytesTest" executed="True" result="Success" success="True" time="0.005" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextDoubleRange" executed="True" result="Success" success="True" time="0.011" asserts="5000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextDoubleTest" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextInt32Negate" executed="True" result="Success" success="True" time="0.006" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextInt64Negate" executed="True" result="Success" success="True" time="0.003" asserts="3000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextUInt32Test" executed="True" result="Success" success="True" time="0.002" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.NextUInt64Test" executed="True" result="Success" success="True" time="0.003" asserts="1000" />
+                          <test-case name="RydiaSoft.Randomizer.Tests.XorshiftTests.RandomBaseTests.ToRandomTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
